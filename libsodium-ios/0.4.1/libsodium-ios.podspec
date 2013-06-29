@@ -22,7 +22,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   
   s.ios.deployment_target = '7.0'
 
-  # s.header_mappings_dir = 'src/libsodium/include'
+  s.header_mappings_dir = 'src/libsodium/include'
 
   files = FileList['src/libsodium/**/*.{c,h,data}']
   files.exclude('**/*try.*')
