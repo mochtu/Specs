@@ -18,7 +18,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 
   s.author   = { "Frank Dennis" => "j@pureftpd.org" }
-  s.source   = { :git => 'https://github.com/mochtu/libsodium-ios.git', :tag => '0.4.1' }
+  s.source   = { :git => 'https://github.com/mochtu/libsodium-ios.git', :tag => '0.4.1.1' }
   
   s.ios.deployment_target = '7.0'
 
