@@ -23,14 +23,9 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   s.ios.deployment_target = '7.0'
 
   s.header_mappings_dir = 'src/libsodium/include'
-
-  files = FileList['src/libsodium/**/*.{c,h,data}']
-  files.exclude('**/*try.*')
-  # files.exclude('**/*version.*')
-  # files.exclude('src/libsodium/crypto_scalarmult/curve25519/donna_c64/')
-
   
-  s.source_files = files 
+  s.source_files = 'src/libsodium/**/*.{c,h,data}'
+  s.exclude_files =  '**/*try.*'
 
 
 
