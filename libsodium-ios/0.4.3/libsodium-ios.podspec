@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "libsodium-ios"
   s.version      = "0.4.3"
   s.summary      = "Sodium-IOS is a portable, cross-compilable, installable, packageable, API-compatible version of NaCl for iOS"
-  s.homepage     = "https://github.com/jedisct1/libsodium"
+  s.homepage     = "https://github.com/mochtu/libsodium-ios"
   s.license      = { :type => "BSD",
                      :text => <<-LICENSE
 -libsodium original license-
@@ -24,7 +24,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   s.header_mappings_dir = 'src/libsodium/include'
   
   s.source_files = 'src/libsodium/**/*.{c,h,data}'
-  s.exclude_files =  '**/*try.*'
+  # s.exclude_files =  '**/*try.*'
 
 
 
