@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "libsodium-ios6-testing"
   s.version      = "0.4.5"
-  s.summary      = "libodium-ios is an API-compatible iOS version of the crypto lib NaCl (network communication, encryption, decryption, signatures). Based on libsodium."
+  s.summary      = "libodium-ios is an API-compatible iOS version of the crypto lib NaCl (com, encryption & signatures). Based on libsodium."
   s.homepage     = "https://github.com/mochtu/libsodium-ios"
   s.license      = { :type => "BSD",
                      :text => <<-LICENSE
