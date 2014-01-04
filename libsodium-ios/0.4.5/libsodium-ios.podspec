@@ -17,7 +17,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   }
 
   s.author   = { "Moritz C. Türck" => "sodium@munich-it.de" }
-  s.source   = { :git => 'https://github.com/mochtu/libsodium-ios.git', :commit => '1fa3578a16fb8b5f9ee65737cc20489ec5468ffe'}
+  s.source   = { :git => 'https://github.com/mochtu/libsodium-ios.git', :tag => '0.4.5' }
   
   s.ios.deployment_target = '7.0'
 
