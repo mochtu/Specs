@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "libsodium-ios"
+  s.name         = "libsodium-ios6-testing"
   s.version      = "0.4.5"
   s.summary      = "Sodium-IOS is a portable, cross-compilable, installable, packageable, API-compatible version of NaCl for iOS"
   s.homepage     = "https://github.com/mochtu/libsodium-ios"
